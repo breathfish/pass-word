@@ -1,10 +1,10 @@
 # 选择城市页
 
-网页源码：https://github.com/wangfupeng1988/react-simple-o2o-demo/tree/stage2-city-page
+
 
 ## 页面最终效果
 
-![](http://images2015.cnblogs.com/blog/138012/201701/138012-20170121133301796-581383353.png)
+
 
 ## 路由
 
