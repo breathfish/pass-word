@@ -44,8 +44,8 @@ class List extends React.Component {
         const cityName = this.props.cityName
         console.log(cityName)
         const result = getListData(cityName, 0)
-        console.log('lllllllll')
-        console.log(result)
+        // console.log('lllllllll')
+        // console.log(result)
         this.resultHandle(result)
     }
     // 加载更多数据

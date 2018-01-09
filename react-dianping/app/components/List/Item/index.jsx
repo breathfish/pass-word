@@ -14,7 +14,7 @@ class ListItem extends React.Component {
         return (
             
             <div className="list-item clear-fix">
-                <Link to={"/detail"+ data.id}>
+                <Link to={"/detail/"+ data.id}>
                 <div className="item-img-container float-left">
                     <img src={require('../../../static/picture/ikcamp.png')} alt={data.title}/>
                 </div>

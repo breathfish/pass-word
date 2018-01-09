@@ -30,6 +30,7 @@ class Info extends  Component{
             console.log(json)
             this.setState({info: json})
         })
+        console.log(this.state.info)
     }
 
 }

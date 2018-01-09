@@ -4,6 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import Header from '../../components/Header'
 import ListComponent from '../../components/List'
 import Info from './subpage/Info'
+import Comment from './subpage/Comment'
 class Detail extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -17,7 +18,8 @@ class Detail extends React.Component {
         return (
             <div>
                 <Header title="商户详情"/>
-                <Info id={this.props.params.id} />
+                <Info id={id} />
+                <Comment id={id} />
             </div>
         )
     }
